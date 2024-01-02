@@ -42,6 +42,7 @@
 
 	<properties>
 		<version.micronaut>3.9.0</version.micronaut>
+		<version.micronaut-registry>5.2.0</version.micronaut-registry>
 		<version.keycloak>22.0.2</version.keycloak>
 		<version.resteasy>6.2.3.Final</version.resteasy>
 		<version.logback>1.2.3</version.logback>
@@ -95,7 +96,7 @@
 		<dependency>
 			<groupId>io.micronaut</groupId>
 			<artifactId>micronaut-micrometer-registry-prometheus</artifactId>
-			<version>5.2.0</version>
+			<version>${version.micronaut-registry}</version>
 			<scope>runtime</scope>
 		</dependency>
 
@@ -162,6 +163,7 @@
 		<dependency>
 			<groupId>io.micronaut.configuration</groupId>
 			<artifactId>micronaut-micrometer-registry-prometheus</artifactId>
+			<version>${version.micronaut-registry}</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
