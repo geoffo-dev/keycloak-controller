@@ -94,7 +94,7 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>io.micronaut</groupId>
+			<groupId>iio.micronaut.micrometer</groupId>
 			<artifactId>micronaut-micrometer-registry-prometheus</artifactId>
 			<version>${version.micronaut-registry}</version>
 			<scope>runtime</scope>
@@ -161,7 +161,7 @@
 
 		<!-- Monitoring -->
 		<dependency>
-			<groupId>io.micronaut.configuration</groupId>
+			<groupId>io.micronaut.micrometer.configuration</groupId>
 			<artifactId>micronaut-micrometer-registry-prometheus</artifactId>
 			<version>${version.micronaut-registry}</version>
 			<scope>runtime</scope>
