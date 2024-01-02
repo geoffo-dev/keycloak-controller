@@ -14,7 +14,6 @@ import jakarta.ws.rs.NotFoundException;
 import jakarta.ws.rs.WebApplicationException;
 import jakarta.ws.rs.core.HttpHeaders;
 import jakarta.ws.rs.core.Response;
-import jakarta.ws.rs.client.ClientBuilder;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
