@@ -95,6 +95,7 @@
 		<dependency>
 			<groupId>io.micronaut</groupId>
 			<artifactId>micronaut-micrometer-registry-prometheus</artifactId>
+			<version>5.2.0</version>
 			<scope>runtime</scope>
 		</dependency>
 
