@@ -8,8 +8,8 @@ import java.util.*;
 import com.kiwigrid.keycloak.controller.KubernetesController;
 import io.fabric8.kubernetes.client.KubernetesClient;
 import javax.inject.Singleton;
-import javax.ws.rs.ProcessingException;
-import javax.ws.rs.WebApplicationException;
+import jakarta.ws.rs.ProcessingException;
+import jakarta.ws.rs.WebApplicationException;
 import org.apache.http.conn.HttpHostConnectException;
 import org.keycloak.admin.client.Keycloak;
 
